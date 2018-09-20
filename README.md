@@ -1,4 +1,4 @@
-# QTesting
+# AITesting 人工智能辅助自动化测试
 
 1. 跨平台
 2. 自动化
