@@ -1,9 +1,13 @@
 #automatically generated do not edit
-#@date Fri Sep 21 2018 17:02:17 GMT+0800 (中国标准时间)
+#@date Fri Sep 21 2018 17:54:45 GMT+0800 (中国标准时间)
 -cp c:\ai\testingai\src\
 -debug
+#@begin-cache -lib utest
+-cp c:\haxetoolkit\haxe\lib\utest\1,8,4\src\
+-D utest=1.8.4
+#@end-cache
 -cs build
--main hello.Test
+-main TestAll
 -D net-ver=40
 -D net-std=C:\Windows\Microsoft.NET\Framework\v4.0.30319\
 -D net-target=net
@@ -20,7 +24,12 @@
 --next
 -cmd cd C:\AI\V5.3
 #-cmd devenv IngoDesign5.3.sln /Build "Debug|Mixed Platforms"
--cmd devenv "IngoDesign5.3.sln" /build Debug /project "Test-Debug" /projectconfig Debug
+-cmd devenv "IngoDesign5.3.sln" /build Debug /project "TestAll-Debug" /projectconfig Debug
 --next
 -cmd cd C:/AI/TestingAI/build/bin/Debug
--cmd Test-Debug.exe
+-cmd TestAll-Debug.exe
+
+
+# --next
+# -cmd cd C:/AI/TestingAI/build/bin
+# -cmd TestAll-Debug.exe

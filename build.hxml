@@ -1,7 +1,8 @@
 -cp src
 -debug 
+-lib utest 
 -cs build
--main hello.Test
+-main TestAll
 -D net-ver=40 
 -D net-std=C:\Windows\Microsoft.NET\Framework\v4.0.30319\
 -D net-target=net 
@@ -13,7 +14,11 @@
 --next 
 -cmd cd C:\AI\V5.3
 #-cmd devenv IngoDesign5.3.sln /Build "Debug|Mixed Platforms" 
--cmd devenv "IngoDesign5.3.sln" /build Debug /project "Test-Debug" /projectconfig Debug
+-cmd devenv "IngoDesign5.3.sln" /build Debug /project "TestAll-Debug" /projectconfig Debug
 --next
 -cmd cd C:/AI/TestingAI/build/bin/Debug
--cmd Test-Debug.exe
+-cmd TestAll-Debug.exe
+
+# --next
+# -cmd cd C:/AI/TestingAI/build/bin
+# -cmd TestAll-Debug.exe
