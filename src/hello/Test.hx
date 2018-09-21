@@ -1,11 +1,10 @@
 package hello;
 
-import classlibrary1.*;
-
+import ingodesignbase.*;
 class Test 
 {
     static function main() 
     {
-       trace(Class1.Add(1,1));
+       trace(TestClass.Add(1, 1));
     }
 }

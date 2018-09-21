@@ -2,4 +2,18 @@
 -debug 
 -cs build
 -main hello.Test
--net-lib  C:\Users\gastrodia\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+-D net-ver=40 
+-D net-std=C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+-D net-target=net 
+#-D no-compilation
+-net-lib C:\AI\IngoSoft\IngoDesign5.3\IngoDesignBase.dll
+
+#haxe  -cp src -cs build -D net-ver=40 -D net-std=C:\Windows\Microsoft.NET\Framework\v4.0.30319\ -main hello.Test
+
+--next 
+-cmd cd C:\AI\V5.3
+#-cmd devenv IngoDesign5.3.sln /Build "Debug|Mixed Platforms" 
+-cmd devenv "IngoDesign5.3.sln" /build Debug /project "Test-Debug" /projectconfig Debug
+--next
+-cmd cd C:/AI/TestingAI/build/bin/Debug
+-cmd Test-Debug.exe
