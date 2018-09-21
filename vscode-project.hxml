@@ -1,0 +1,10 @@
+#automatically generated do not edit
+#@date Fri Sep 21 2018 14:27:05 GMT+0800 (中国标准时间)
+-cp c:\ai\testingai\src\
+-debug
+-cs build
+-main hello.Test
+-net-lib  C:\Users\gastrodia\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+
+
+-cp c:\users\gastro~1\appdata\local\temp\8630130e30f7e35b21acc12cb6e5fb8df6ff930c

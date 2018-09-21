@@ -1,0 +1,19 @@
+{
+  "name": "testingai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "haxe build.hxml && build\\bin\\Test-Debug.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gastrodia/TestingAI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gastrodia/TestingAI/issues"
+  },
+  "homepage": "https://github.com/gastrodia/TestingAI#readme"
+}
