@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "haxe build.hxml && build\\bin\\Test-Debug.exe"
+    "test": "haxe build.hxml && build\\bin\\Test-Debug.exe",
+    "test-hello":"ocaml ./src/parser/hello.ml",
+    "build-hello":"ocamlc -o ./build/hello ./src/parser/hello.ml",
+    "build-native-hello":"ocamlopt -o ./build/hello.exe ./src/parser/hello.ml"
   },
   "repository": {
     "type": "git",

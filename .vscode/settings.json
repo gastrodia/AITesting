@@ -1,3 +1,6 @@
 {
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\system32\\cmd.exe"
+    //"terminal.integrated.shell.windows": "C:\\OCaml64\\Cygwin.bat",
+    // "terminal.integrated.env.windows": {
+    //     "PATH":"C:\\OCaml64\\bin;C:\\OCaml64\\home\\root\\.opam\\4.02.3+mingw64c\\bin"
+    // }
 }
