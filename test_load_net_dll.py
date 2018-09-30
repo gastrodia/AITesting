@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+#https://github.com/stevehv/pythonnet_release_opened_dll
+
 import clr
 from System.Reflection import Assembly
 Assembly.LoadFile("C:/Users/gastrodia/source/repos/ClassLibrary1/ClassLibrary1/bin/Debug/ClassLibrary1.dll")
