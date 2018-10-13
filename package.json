@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "haxe build.hxml && build\\bin\\Test-Debug.exe",
-    "test-parser":"ocaml ./src/parser/parsec.ml",
-    "test-hello":"ocaml ./src/parser/hello.ml",
-    "build-hello":"ocamlc -o ./build/hello ./src/parser/hello.ml",
-    "build-native-hello":"ocamlopt -o ./build/hello.exe ./src/parser/hello.ml"
+    "test-parser": "ocaml ./src/parser/parsec.ml",
+    "test-hello": "ocaml ./src/parser/hello.ml",
+    "build-hello": "ocamlc -o ./build/hello ./src/parser/hello.ml",
+    "build-native-hello": "ocamlopt -o ./build/hello.exe ./src/parser/hello.ml"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/gastrodia/TestingAI/issues"
   },
-  "homepage": "https://github.com/gastrodia/TestingAI#readme"
+  "homepage": "https://github.com/gastrodia/TestingAI#readme",
+  "dependencies": {
+    "algebra.js": "^0.2.6",
+    "genprojs": "0.0.12"
+  }
 }
