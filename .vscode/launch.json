@@ -21,6 +21,12 @@
             "request": "launch",
             "name": "parser.js",
             "program": "${workspaceFolder}\\parser.js"
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "predata.js",
+            "program": "${workspaceFolder}\\predata.js"
+        },
     ]
 }

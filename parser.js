@@ -1,46 +1,10 @@
 "use strict";
-var fs = require('fs');
+
 var GenPro = require('genprojs');
 var Variable = GenPro.Variable;
 var Chromosome = GenPro.Chromosome;
 
 
-function parserContent(content){
-    var lines = content.split("\r\n");
-    var objs = []
-    var puting = 'input';
-    var put = {};
-    for(var i in lines){
-        var line = lines[i];
-        if(line.indexOf('start:') != -1){
-            var obj = {
-                holeId:line.split(': '[0])
-            };
-            objs.push(obj)
-        }else{
-            if(line.indexOf('Input: ')!=-1){
-                put = {}
-                puting = 'input'
-            }else if(line.indexOf('Output: ')!= -1){
-                put = {}
-                puting = 'output'
-            }else{
-                var arr = line.split(': ');
-                put[arr[0]] = arr[1];
-                if(puting == "input"){
-                    obj.input = put
-                }else{
-                    obj.output = put
-                }
-            }
-
-            
-        }
-        
-    }
-
-    return objs;
-}
 
 class Sovler{
 
@@ -145,12 +109,11 @@ class Sovler{
 
 }
 
-var content = fs.readFileSync('C:\\Users\\gastrodia\\Desktop\\Hole.txt','utf-8')
-var infos = parserContent(content)
 
-var solver = new Sovler();
-solver.setInfos(infos);
-solver.setOuputKey('hole.SiteX');
-var result = solver.sovle();
-console.log('result: ' ,solver.getSimplifyExprString(result));
-solver.test(result);
+
+// var solver = new Sovler();
+// solver.setInfos(infos);
+// solver.setOuputKey('hole.SiteX');
+// var result = solver.sovle();
+// console.log('result: ' ,solver.getSimplifyExprString(result));
+// solver.test(result);
