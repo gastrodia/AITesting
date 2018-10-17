@@ -24,6 +24,21 @@
     <ClInclude Include="Algebra.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Term.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fraction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -34,6 +49,15 @@
     </ClCompile>
     <ClCompile Include="export.h">
       <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Term.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
