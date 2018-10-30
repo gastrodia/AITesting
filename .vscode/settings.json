@@ -1,7 +1,24 @@
 {
     "python.linting.pylintArgs": [
         "-–disable=E0401"
-    ]
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc":true,
+        "**/temp":true,
+        "**/__pycache__":true,
+        "**/.ropeproject":true,
+        "**/vscode-project.hxml":true,
+        "**/.vs":true,
+        "**/dist":true,
+        "**/build":true,
+        "**/Debug":true,
+        "**/node_modules":true
+    }
     //"terminal.integrated.shell.windows": "C:\\OCaml64\\Cygwin.bat",
     // "terminal.integrated.env.windows": {
     //     "PATH":"C:\\OCaml64\\bin;C:\\OCaml64\\home\\root\\.opam\\4.02.3+mingw64c\\bin"
