@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python Attach (Remote Debug)",
+            "type": "python",
+            "request": "attach",
+            "port": 8813,
+            "host": "localhost"
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach",

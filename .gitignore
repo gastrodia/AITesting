@@ -3,3 +3,4 @@ build
 Debug
 x64
 node_modules
+*.pyc
