@@ -28,7 +28,7 @@
 (defn home-page []
   (fn []
     [:span.main
-     [:h1 "Welcome to ring"]
+     [:h1 "Welcome to ring boy"]
      [:ul
       [:li [:a {:href (path-for :items)} "Items of ring"]]
       [:li [:a {:href "/borken/link"} "Borken link"]]]]))
@@ -78,7 +78,7 @@
     (let [page (:current-page (session/get :route))]
       [:div
        [:header
-        [:p [:a {:href (path-for :index)} "Home"] " | "
+        [:p [:a {:href (path-for :index)} "Home Ring Data"] " | "
          [:a {:href (path-for :about)} "About ring"]]]
        [page]
        [:footer

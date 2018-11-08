@@ -22,7 +22,7 @@ websockets. In this case it's recommended to run a standalone instance of a web 
 lein do clean, run
 ```
 
-The application will now be available at [http://localhost:3000](http://localhost:3000).
+The application will now be available at [http://localhos1t:3000](http://localhost:3000).
 
 
 ### Optional development tools

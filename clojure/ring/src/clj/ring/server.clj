@@ -5,5 +5,6 @@
     (:gen-class))
 
 (defn -main [& args]
-  (let [port (or (env :port) 3000)]
+  (let [port (or (env :port) 3789)]
     (run-jetty app {:port port :join? false})))
+  
