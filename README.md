@@ -1,5 +1,5 @@
 # TestingAI
 
-1. GP
+1. Geometric Algebra And GP
 
-2. Lisp
+2. Lisp 
